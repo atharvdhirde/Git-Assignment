@@ -6,7 +6,7 @@
 		<property name="question" value="your favourite game"/>
 		<property name="answers">
 		<set>
-			<value>My favourite game</value>
+			<value>My favourite game is Cricket</value>
 		</set>
 		</property>
 		
