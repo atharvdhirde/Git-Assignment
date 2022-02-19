@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+                             
+	<bean id="student1" class="com.question5.Student">
+		<property name="name" value="Atharv Dhirde"/>
+	</bean>
+	<bean id="student2" class="com.question5.Student">
+		<property name="name" value="Atharv Dhirde"/>
+		<property name="age" value="21"/>
+	</bean>
+	<bean id="school" class="com.question5.School">
+		<property name="name" value="Montfort School"/>
+		<property name="Total_Student" value="64"/>
+	</bean>
+	<bean id="school1" class="com.question5.School">
+		<property name="name" value="Heman jakate"/>
+		<property name="Total_Student" value="90"/>
+	</bean>
+	<bean id="school2" class="com.question5.School">
+		<property name="name" value="Shivaji Science"/>
+		<property name="Total_Student" value="55"/>
+	</bean>
+	
+	<context:annotation-config/>
+	
+</beans>
