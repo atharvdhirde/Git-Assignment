@@ -8,18 +8,18 @@
            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
      
      
-     <bean id="ayush1" class="com.question8.Data">
-     	<property name="name" value="Ayush Ghai"/>
-     </bean>
-     
-      
-     <bean id="ayush2" class="com.question8.Data" init-method="myInit" destroy-method="myDestroy">
+     <bean id="Data11" class="com.question8.Data">
      	<property name="name" value="Atharv Dhirde"/>
      </bean>
      
+      
+     <bean id="Data22" class="com.question8.Data" init-method="myInit" destroy-method="myDestroy">
+     	<property name="name" value="Ayush"/>
+     </bean>
+     
        
-     <bean id="ayush3" class="com.question8.Data" init-method="myInit" destroy-method="myDestroy">
-     	<property name="name" value="Omkar Dumbre"/>
+     <bean id="Data33" class="com.question8.Data" init-method="myInit" destroy-method="myDestroy">
+     	<property name="name" value="Omakr"/>
      </bean>
      <context:annotation-config/>
 </beans>
