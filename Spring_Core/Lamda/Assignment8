@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Assignment4Q8 {
+    public static void main(String[] args) {
+        List<Integer> list = new ArrayList<>();
+        list.add(54);
+        list.add(38);
+        list.add(101);
+        list.add(65);
+        list.add(85);
+
+        new Thread(() ->{
+            for (Integer i: list) {
+                System.out.println(i);
+            }
+        }).start();
+    }
+}
