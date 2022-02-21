@@ -1,0 +1,42 @@
+import java.util.function.Consumer;
+import java.util.function.Function;
+
+public class Assignment4Q3{
+    public static void main(String[] args) {
+        Person p=new Person();
+        Consumer<Person> setName=a->a.setName("Test1");
+        setName.accept(p);
+        System.out.println(p.getName());
+        Function<Integer,String>test=t->t*10+"price increase to 20";
+        System.out.println(test.apply(2));
+
+    }
+}
+
+class Person
+{
+        private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public  void modifyValue(String name)
+        {
+            modifyValue(name);
+        }
+
+
+}
+//function
+class Product
+{
+    public  void display()
+    {
+        display();
+    }
+}
