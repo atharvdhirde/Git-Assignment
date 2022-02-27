@@ -1,0 +1,13 @@
+h2{
+    background-color: blue;
+    padding: 20px;
+}
+.paragraph{
+    background-color: rgb(85, 117, 185);
+    padding: 1px;
+}
+
+#para{
+    background-color: aqua;
+    padding: 15px;
+}
