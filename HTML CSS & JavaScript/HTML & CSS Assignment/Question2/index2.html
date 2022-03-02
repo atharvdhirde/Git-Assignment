@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+   
+    
+    <link rel="stylesheet" href="style2.css">
+    <title>Assignment-2</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center"><strong class="trill">Trillium</strong> Survey Form</h1>
+            <!-- <p id="description" class="description text-center">
+                Thank you for taking the time to help us improve the platform
+            </p> -->
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name......" required />
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email......"
+                    required />
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age<span class="clue"></span></label>
+                <input type="number" name="age" id="number" class="form-control" placeholder="Enter your Age......" />
+            </div>
+            <div class="form-group">
+                <p>What reason did you have to visit to our Mall?</p>
+                <select id="dropdown" name="role" class="form-control" required>
+                    <option disabled selected value>Select option</option>
+                    <option value="Kill time">Kill time</option>
+                    <option value="Needed to eat">Needed to eat</option>
+                    <option value="Buy food & drink">Buy food & drink</option>
+                    <option value="Buy a gift">Buy a gift</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>Would you recommend this place to friends</p>
+                <label>
+                    <input name="user-recommend" value="yes" type="radio" class="input-radio"
+                        checked />Yes</label>
+                <label>
+                    <input name="user-recommend" value="no" type="radio" class="input-radio" />No</label>
+            </div>
+
+            <div class="form-group">
+                <p>
+                    What is your favorite section of Mall?
+                </p>
+                <select id="most-like" name="mostLike" class="form-control" required>
+                    <option disabled selected value>Select an option</option>
+                    <option value="Playstore">Playstore</option>
+                    <option value="Foodcourt">Foodcourt</option>
+                    <option value="Cloth Section">Cloth Section</option>
+                    <option value="Grocery Section">Grocery Section</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>
+                   Which brand do you like?
+                    <span class="clue"></span>
+                </p>
+
+                <label><input name="prefer" value="Puma" type="checkbox"
+                        class="input-checkbox" />Puma</label>
+                <label>
+                    <input name="prefer" value="Gucci" type="checkbox" class="input-checkbox" />Gucci</label>
+                <label><input name="prefer" value="Adidas" type="checkbox" class="input-checkbox" />Adidas
+                </label>
+                <label><input name="prefer" value="Park Avenue" type="checkbox"
+                        class="input-checkbox" />Park Avenue</label>
+                <label><input name="prefer" value="Levi's" type="checkbox" class="input-checkbox" />Levi's</label>
+                <label><input name="prefer" value="Tommy Hilfiger" type="checkbox" class="input-checkbox" />Tommy Hilfiger</label>
+                <label><input name="prefer" value="Lee" type="checkbox" class="input-checkbox" />Lee</label>
+                <label><input name="prefer" value="Wrangler" type="checkbox" class="input-checkbox" />Wrangler</label>
+                <label><input name="prefer" value="Pepe jeans" type="checkbox" class="input-checkbox" />Pepe jeans</label>
+                <label><input name="prefer" value="DJ&C" type="checkbox" class="input-checkbox" />DJ&C</label>
+                <label><input name="prefer" value="other" type="checkbox"
+                        class="input-checkbox" />Other</label>
+            </div>
+
+            <div class="form-group">
+                <p>Any comments or suggestions?</p>
+                <textarea id="comments" class="input-textarea" name="comment"
+                    placeholder="Enter your comment here..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
